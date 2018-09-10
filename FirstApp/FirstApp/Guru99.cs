@@ -30,18 +30,19 @@ namespace FirstApp
         [TestCleanup]
         public void TearDown()
         {
-            browser.Close();
+           // browser.Close();
         }
 
 
         [TestMethod]
         public void Test1()
         {
-            Console.WriteLine("Start test"); ;
 
-            Thread.Sleep(10000);
+            IWebElement testing = browser.FindElement(By.XPath(".//div[@class='maxiroundedcenter']/ul/li[3]/a"));
+            testing.Click();
+            IWebElement manualTesting = browser.FindElement(By.XPath(".//*[@id='maximenuck243']/div[5]/div[1]/div/div[1]/ul/li[1]/a/span"));
+            manualTesting.Click();
 
-            Console.WriteLine("Stop test"); ;
 
            
         }
