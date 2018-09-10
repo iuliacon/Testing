@@ -45,6 +45,7 @@ namespace FirstApp
 
             browser.Close();
             browser.Manage().Window.Minimize();
+            browser.Manage().Window.Maximize();
 
 
            
