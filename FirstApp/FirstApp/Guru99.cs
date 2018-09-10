@@ -45,8 +45,11 @@ namespace FirstApp
 
 <<<<<<< HEAD
             browser.Close();
+<<<<<<< HEAD
             browser.Manage().Window.Minimize();
             browser.Manage().Window.Maximize();
+=======
+>>>>>>> parent of be20b3b... added minimize option
 
 =======
 >>>>>>> parent of 9a741de... added new line in Test1
