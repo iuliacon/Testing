@@ -44,6 +44,7 @@ namespace FirstApp
             manualTesting.Click();
 
             browser.Close();
+            browser.Manage().Window.Minimize();
 
 
            
