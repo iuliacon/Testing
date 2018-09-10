@@ -43,10 +43,13 @@ namespace FirstApp
             IWebElement manualTesting = browser.FindElement(By.XPath(".//*[@id='maximenuck243']/div[5]/div[1]/div/div[1]/ul/li[1]/a/span"));
             manualTesting.Click();
 
+<<<<<<< HEAD
             browser.Close();
             browser.Manage().Window.Minimize();
             browser.Manage().Window.Maximize();
 
+=======
+>>>>>>> parent of 9a741de... added new line in Test1
 
            
         }
